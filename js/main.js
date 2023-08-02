@@ -54,3 +54,12 @@ $(document).ready(function() {
 		nav.toggleClass('open');
 	});
 });
+	// Window open
+function myRideshare() {
+    var myWindow = window.open
+	("https://bryanfostercopley.github.io/rideshare/", "_blank");
+}
+function myBrewery() {
+    var myWindow = window.open
+	("https://bryanfostercopley.github.io/brewery/", "_blank");
+}
